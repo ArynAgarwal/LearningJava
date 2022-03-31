@@ -37,5 +37,25 @@ public class P3_Task02_OperatorsInJava {
 	
 	void ShiftOperator() {
 		
+		System.out.println("Inside Shift Operator");
+		
+//		01010101<<1
+//		10101010
+//		
+//		01010101>>1
+//		00101010
+		
+		System.out.println(10 << 2);//10*2^2=10*4=40
+		System.out.println(10 << 3);//10*2^3=10*8=80
+		System.out.println(20 << 2);//20*2^2=20*4=80
+		System.out.println(15 << 4);//15*2^4=15*16=240
+		
+		System.out.println(10 >> 2);//10/2^2=10/4=2
+		System.out.println(20 >> 2);
+		System.out.println(20 >> 3);
+		
+		System.out.println("-----------------------");
 	}
+	
+	
 }
