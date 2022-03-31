@@ -12,12 +12,14 @@ public class P3_Task02_OperatorsInJava {
 		int a = 10;
 		boolean b = false;
 		System.out.println("Inside Unary Operator");
-		System.out.println(a++);
-		System.out.println(a--);
-		System.out.println(++a);
-		System.out.println(--a);
+		System.out.println(a++);//10
+		System.out.println(a--);//11
+		System.out.println(++a);//11
+		System.out.println(--a);//10
 		System.out.println("----------------------");
 	}
 	
-//	void Arithematic
+	void ArithematicOperator() {
+		
+	}
 }
