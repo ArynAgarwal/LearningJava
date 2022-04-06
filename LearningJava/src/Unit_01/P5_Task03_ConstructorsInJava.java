@@ -1,5 +1,15 @@
 package Unit_01;
 
+/*
+ * It is called when an instance of the class is created
+ * At the time of calling the constructor, memory for the object is allocated in the memory
+ * It is a special type of method which is used to initialize the object
+ * Every time an object is created using the new() keyword, at least one constructor is called
+ * Two types of Constructor in Java
+ *   1.Parameterized Constructor
+ *   2.Default Constructor
+ */
+
 public class P5_Task03_ConstructorsInJava {
 
 	public static void main(String[] args) {
