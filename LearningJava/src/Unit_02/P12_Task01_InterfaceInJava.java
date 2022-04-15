@@ -97,7 +97,6 @@ class C1 implements B1{
 	public void funcA() {
 		System.out.println("This is funcA from A1");
 	}
-	
 	public void funcB() {
 		System.out.println("This is funcB from A2");
 	}
