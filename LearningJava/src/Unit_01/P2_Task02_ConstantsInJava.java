@@ -19,7 +19,7 @@ public class P2_Task02_ConstantsInJava {
 //		The final local variable b cannot be assigned. It must be blank and not using a compound assignment
 		final int b = 90;
 		b = 99;
-		
+		System.out.println(b);
 //		Cannot make a static reference to the non-static field c
 		System.out.println(c);
 	}
