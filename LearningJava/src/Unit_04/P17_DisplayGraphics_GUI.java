@@ -36,8 +36,8 @@ public class P17_DisplayGraphics_GUI extends Canvas {
 		grap.draw3DRect(150, 40, 140, 60, getFocusTraversalKeysEnabled());
 		
 		grap.setColor (Color.gray);
-		grap.draw3DRect (50, 10, 50, 75, true);
-		grap.draw3DRect (25, 110, 50, 75, false);
+		grap.draw3DRect (350, 100, 100, 75, true);
+		grap.draw3DRect (250, 110, 50, 75, false);
 	}
 
 }
