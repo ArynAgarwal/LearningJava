@@ -26,12 +26,18 @@ public class P17_DisplayGraphics_GUI extends Canvas {
 		grap.drawLine(FRAMEBITS, ERROR, ALLBITS, ABORT);
 		
 		setForeground(Color.RED);
+		
 		grap.fillOval(140, 140, 40, 60);
 		
 		grap.drawArc(10, 20, 140, 150, 90, 60);
 
 		grap.drawRect(150, 40, 140, 60);
-				
+		
+		grap.draw3DRect(150, 40, 140, 60, getFocusTraversalKeysEnabled());
+		
+		grap.setColor (Color.gray);
+		grap.draw3DRect (50, 10, 50, 75, true);
+		grap.draw3DRect (25, 110, 50, 75, false);
 	}
 
 }
