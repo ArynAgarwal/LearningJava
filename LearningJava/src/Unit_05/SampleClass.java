@@ -19,6 +19,7 @@ public class SampleClass {
 		
 		catch (Exception exc) {
 			exc.printStackTrace();
+			
 		}
 		finally {
 			myRs.close();
