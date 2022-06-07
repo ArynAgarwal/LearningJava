@@ -16,6 +16,7 @@ public class SampleClass {
 					System.out.println(myRs.getString("jdbc_id") + ", " +myRs.getString("title") + ", " + myRs.getString("author") + ", " +myRs.getString("submission_date"));
 			}
 		}
+		
 		catch (Exception exc) {
 			exc.printStackTrace();
 		}
