@@ -11,9 +11,7 @@ public class P3_Task01_VariablesAndDataTypesInJava {
 		float pi;
 		double d;
 		char c;
-		
 		int a = 5; // Local variable
-		
 		System.out.println("Local a = "+ a);
 		System.out.println("Global a = "+ P3_Task01_VariablesAndDataTypesInJava.a);
 		System.out.println();
