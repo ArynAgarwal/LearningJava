@@ -103,6 +103,7 @@ class SwingInJava_4F extends JFrame {
 		add(b2);
 		add(b3);
 		
+		
 		add(l1);
 
 		ActionListener al = new ActionListener() {
